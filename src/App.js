@@ -26,7 +26,7 @@ function App() {
     { msg: "Very doubtful.", color: "red" },
   ]
   return (
-    <EightBall answers = {answers}/>
+    <EightBall className="App" answers = {answers}/>
   );
 }
 

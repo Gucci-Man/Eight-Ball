@@ -1,12 +1,15 @@
-.EightBall {
+.EightBall-container {
+    width: 300px; /* Set the width and height of the circle */
     height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: solid;
-    
-    
+    background-color: black;
+    border-radius: 50%; /* Make it a circle with border-radius */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Start {
-    background-color: black;
+.Answer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
